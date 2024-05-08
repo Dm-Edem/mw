@@ -1,0 +1,360 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins;ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    background-color: #eff4fd;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    margin-left: -1000px;
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    color: blue;
+    
+       
+}
+
+nav{
+    display:flex;
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content:space-between;
+         
+}
+
+
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 10px;
+
+}
+
+li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 30px ; 
+   font-family:  sans-serif;
+    font-weight: bold;
+    position: relative;
+
+}
+li a:hover{
+    color:blue;
+}
+span{
+    color:blue;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+
+}
+
+
+h2 span{
+    color: #00f;
+}
+
+
+
+.description{
+    margin: 180px 70px;
+    
+}
+
+.description h1{
+    font-family:reddit sans;
+}
+.description h3 span{
+    color:blue;
+}
+
+
+h4{
+    font-weight: lighter;
+    font-size: larger;
+    
+}
+/*=======Cv & about me=======*/
+
+.button{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background: black;
+    color:white;
+    
+}
+/*=======my services button======*/
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background:black;
+    color:white;
+    text-align: center;
+}
+  
+.images img{
+    
+    height:70%;
+    position:absolute;
+    bottom:30px;
+    right:100px;
+    left:68%;
+    border-radius: 200px;
+    animation: float 4s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+        transform: translate(6opx);
+    }
+}
+
+.images img:hover{
+    transform:translateY(-10px);
+    transition: transform 0.5s;
+    cursor:pointer;
+}
+  
+
+.about{
+    width:50%;
+    padding: 100px 0px;
+}
+
+.about img{
+    height:auto;
+    width:400px;
+    border-radius: 10px;
+    animation: float 4s ease-in infinite;
+
+}
+
+@keyframes float{
+    50%{
+        transform:translate(60px);
+    }
+}
+
+.text{
+    width:550px;
+}
+
+.main{
+    width:1110px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text p{
+    font-weight: lighter;
+    font-size: larger;
+    
+}
+
+.text h1{
+    font-size: 50px;
+}
+
+.text h5{
+    color:blue;
+    font-size: 30px;
+    font-family:poppins;
+}
+
+.social-media i{
+    color: #4682b4;
+    font-size: 15px;
+    align-items: center;
+    border:3px solid;
+    border-radius: 50%;
+    margin: 1.5rem 0.5rem 1.5rem 0;
+    transition: .2s ease;
+    background: transparent;
+    padding:5px;
+   
+    
+    
+}
+
+.social-media i:hover{
+  color:blue;  
+
+}
+
+
+
+.fa-solid.fa-file-video.fa-4x{
+    color:rgb(111, 91, 223);
+}
+.fa-solid.fa-paintbrush.fa-4x{
+    color:rgb(111, 91, 223);
+}
+.fa-brands.fa-github.fa-4x{
+    color:rgb(111, 91, 223);
+}
+.fa-solid.fa-camera.fa-4x{
+    color:rgb(111, 91, 223);
+}
+.fa-solid.fa-bullhorn.fa-4x{
+    color:rgb(111, 91, 223);
+}
+
+
+
+.text button{
+    padding:8px;
+    border-radius: 20px;
+   
+}
+
+.services{
+    width:100%;
+    padding:100px 0px;
+}
+
+.title h2{
+    
+    font-size: 70px;
+    width:1300px;
+    margin:10px 10px;
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+    
+}
+
+.card{
+    width:300px;
+    border:8px;
+    box-shadow: 3px 3px 20px #4682b4;
+    margin: 50px;
+    transition:.3s ease;
+    animation:  float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+    50%{
+        transform:translate(30px);
+    }
+}
+
+
+.card:hover{
+    border-color: #4682b4;
+    transform: scale(1.02);
+}
+
+.box-content{
+    padding:16px;
+}
+
+.box-content h3{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.box-content p{
+    font-family: sans-serif;
+    font-weight: lighter;
+
+}
+
+.box-content button{
+    padding: 8px 16px;
+    margin-top: 17px;
+    background-color: black;
+    
+}
+
+
+/*=========Email form========*/ 
+/* Reset some default styles for form elements */
+
+  
+  
+  /* Style the form section */
+  .form {
+    background-color: lightslategray;
+    padding: 10px;
+  }
+  
+  /* Style the form container */
+  .container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding:10px
+  }
+  
+  /* Style the form heading */
+  .container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the input boxes */
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box input,
+  .input-box textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    
+  }
+  
+  /* Style the submit button */
+  .ibutton {
+    display: block;
+    width:50%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-content: center;
+  }
+  
+  
+  
+  /* Style form validation error messages */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+  }
+
